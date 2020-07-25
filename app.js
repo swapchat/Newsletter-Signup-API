@@ -39,7 +39,7 @@ app.post("/", function(req , res){
 
   const options = {
     method: "POST",
-    auth: "Swapnil:a  c38083793176e5d596cad77f8f3ce62f-us17"
+    auth: "Swapnil:c38083793176e5d596cad77f8f3ce62f-us17"
   }
   const request = https.request(url , options , function(response){
 
@@ -64,7 +64,7 @@ app.post("/failure", function(req , res){
   res.redirect("/");
 });
 
-app.listen(process.env.PORT || 3000, function(){
+app.listen(process.env.PORT || 3000, function() {
   console.log("Server is running on port 3000");
 });
 
